@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:label="Intent_1">
+
+    <LinearLayout
+        android:id="@+id/rLayout"
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:src="@drawable/background"
+            android:layout_marginTop="-50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-450dp"
+            android:fontFamily="@font/bakbak_one"
+            android:padding="10dp"
+            android:text="Nginap di sini Yuk !"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/white_bg"
+        android:layout_marginTop="-77dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-290dp"
+        android:fontFamily="@font/poppins"
+        android:text="pilihan tempat istirahat yang nyaman biar tidurmu lebih nyenyak"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textFontWeight="730"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/poppins"
+        android:text="mari mulai menginap di tempat kami"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/bMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="Milai Aplikasi"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+</LinearLayout>

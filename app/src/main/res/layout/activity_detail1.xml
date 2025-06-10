@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="755dp"
+    tools:context=".detail1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/hotel1"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="1000"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="DB Hotel"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="500"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Tambahan Layanan"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double Bed"
+            android:id="@+id/cbDoubleBed"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swimming Pool"
+            android:id="@+id/cbSwimm"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:fontFamily="@font/poppins"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/bPesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pesan"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/kembali1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kembali"
+            android:gravity="center"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/dark_blue"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
