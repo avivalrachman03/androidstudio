@@ -25,9 +25,6 @@
             android:name=".home"
             android:exported="false" />
         <activity
-            android:name=".About"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
